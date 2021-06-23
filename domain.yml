@@ -5,29 +5,35 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
+  - fee
+  - fee1
+  - fee2
   - bot_challenge
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
   utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_1fee:
+  - text: "The fee for the academic year 2020-21 for students of classes 1 to 6 is 70rupees."
+  
+  utter_2fee:
+  - text: "The fee for the academic year 2020-21 for students of class 7 to 12 is 100rupees."
+
+  utter_moreinfo:
+  - text: "For futher and detailed information contact the school administration."
 
   utter_goodbye:
   - text: "Bye"
 
+  utter_aftaffirm:
+  - text: "Thank you and have a good day."
+
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot, powered by 3 students."
 
 session_config:
   session_expiration_time: 60
