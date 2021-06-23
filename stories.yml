@@ -2,29 +2,21 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: fee_1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
+  - intent: fee1
+  - action: utter_1fee
+  - action: utter_moreinfo
   - action: utter_did_that_help
   - intent: affirm
-  - action: utter_happy
+  - action: utter_aftaffirm
 
-- story: sad path 2
+- story: fee_2
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
+  - intent: fee2
+  - action: utter_2fee
+  - action: utter_moreinfo
   - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: affirm
+  - action: utter_aftaffirm
+
