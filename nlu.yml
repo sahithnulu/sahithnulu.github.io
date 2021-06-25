@@ -12,6 +12,13 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+- intent: fine
+  examples:
+    -i am fine
+    -im fine
+    -im doing good
+    -im doing well
+    -nice
 - intent: goodbye
   examples: |
     - good afternoon
@@ -68,3 +75,37 @@ nlu:
     -fee for class10
     -fee for class11
     -fee for class12
+
+- intent: exam1
+  examples: 
+    -exam timetable for class1
+    -exam timetable for class2
+    -exam timetable for class3
+    -exam timetable for class4
+    -exam timetable for class5
+    -exam timetable for class6
+
+- intent: exam2
+  examples:
+    -exam timetable for class7
+    -exam timetable for class8
+    -exam timetable for class9
+    -exam timetable for class10
+    -exam timetable for class11
+    -exam timetable for class12
+
+- intent: syllabus
+  examples:
+    -syllabus
+
+- intent: circulars
+  examples:
+    -circular
+    -i want to see the latest circulars
+    -i want to check for new circulars
+
+- intent: admission
+  examples:
+    -admission
+    -criteria for admission
+    -admit my child
