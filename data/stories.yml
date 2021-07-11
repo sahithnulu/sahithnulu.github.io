@@ -1,0 +1,59 @@
+version: "2.0"
+
+stories:
+
+- story: fee_1
+  steps:
+  - intent: fee1
+  - action: utter_1fee
+
+- story: exam_1
+  steps:
+  - intent: exam1
+  - action: utter_exam1
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fine
+  - action: utter_fine
+
+- story: bye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+
+- story: circular
+  steps:
+  - intent: circulars
+  - action: utter_circular
+
+
+- story: contactinfo
+  steps:
+  - intent: contact
+  - action: utter_moreinfo
+
+
+- story: admission
+  steps:
+  - intent: admission
+  - action: utter_admit
+
+- story: fee
+  steps:
+  - intent: fee
+  - action: utter_fee
+
+- story: syllabus
+  steps:
+  - intent: syllabus
+  - action: utter_syllabus
+
