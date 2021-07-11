@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./pr.css">
+  </head>
+    <body>
+      <h1>
+        ISG Website Chatbot
+    </h1>
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.indianschool.com%2Fimages%2Flogo.png&f=1&nofb=1"
+        alt="isg logo" id="img">
+
+    <h2>Chatbot project </h2>
+    <br>
+    <p class="p1">
+        The objective of this contest is to give opportunity for us students to understand the trend in IT and the
+        application of AI in educational institutions. Our team created a CHATBOT using existing open source chatbot
+        applications for a better user experience.
+    </p>
+    <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">For more info check this site and subscrbie to our school channel</a>
+        <script>!(function () {
+            let e = document.createElement("script"),
+              t = document.head || document.getElementsByTagName("head")[0];
+            (e.src =
+              "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+              (e.async = !0),
+              (e.onload = () => {
+                window.WebChat.default(
+                  {
+                    initPayload:'/greet',
+                    customData: { language: "en" },
+                    socketUrl: "http://localhost:5005",
+                  },
+                  null
+            );
+    }),
+    t.insertBefore(e, t.firstChild);
+})();
+
+        </script>
+
+    </body>
+</html>

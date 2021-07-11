@@ -1,0 +1,63 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - fee
+  - fee1
+  - exam1
+  - bot_challenge
+  - fine
+  - circulars
+  - admission
+  - syllabus
+  - contact
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_fine:
+  - text: "Thts nice to hear,How may i help you?"
+
+  utter_fee:
+  - text: "Could specify the class?"
+
+  utter_1fee:
+  - text: "The fee for the academic year 2020-21 for students of classes 1 to 12 is given below"
+    image: "https://www.ismoman.com/Fee%20Struct%2021-22/yearly%20fees1.png"
+  
+  utter_moreinfo:
+  - text: "For futher information contact the school administration at 9090909090."
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_aftaffirm:
+  - text: "Thank you .Do u want to search for something else?."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by 3 students."
+  
+  utter_exam1:
+  - text: "The exam timetable for class 1 to 12 is given in the link below"
+    image: "https://imgur.com/y5vR91R"
+
+  utter_circular:
+  - text: "You can see the latest circulars in the link given,https://indianschool.com/circular.php"
+
+  utter_admit:
+  - text: "The details and criteria for admission are given in the link given,https://indianschool.com/admission.php"
+
+  
+  utter_syllabus:
+  - text: "The syllabus for all classes are given in the link given,https://www.researchgate.net/profile/Gordana-Dodig-Crnkovic/publication/228828061/figure/tbl1/AS:649310429532177@1531819078555/Professional-Ethics-Course-Syllabus.png"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
