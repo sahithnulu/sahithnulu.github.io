@@ -1,10 +1,12 @@
 # rasa
 
 ## What is it 
-This is a project that is being worked on 
+- This is a project that is was a project that me a and my friends worked on.
+- This is a chat bot, which was to be used in a school website.
+- So it would send circulars and others on request
 
 ### Why
-stuff to be done so, we can access it here 
+- Cause it was a project and could be here for future use. 
 
 ## any thing else 
-Nothing bye 
+Pretty much it
